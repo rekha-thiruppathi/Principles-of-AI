@@ -1,0 +1,10 @@
+print("Discrete Movement")
+for floor in range(1, 6):
+    print("Floor", floor)
+
+print("\nContinuous Movement")
+
+position = 0.0
+while position <= 5:
+    print("Height:", position)
+    position += 0.5
