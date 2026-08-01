@@ -1,0 +1,12 @@
+current = int(input("Enter current position: "))
+goal = int(input("Enter goal position: "))
+
+while current != goal:
+    if current < goal:
+        current += 1
+        print("Move Right to", current)
+    else:
+        current -= 1
+        print("Move Left to", current)
+
+print("Goal Reached!")
