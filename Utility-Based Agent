@@ -1,0 +1,10 @@
+bus = 60
+bike = 90
+walk = 40
+
+if bike >= bus and bike >= walk:
+    print("Best Choice: Bike")
+elif bus >= bike and bus >= walk:
+    print("Best Choice: Bus")
+else:
+    print("Best Choice: Walk")
