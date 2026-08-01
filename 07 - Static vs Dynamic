@@ -1,0 +1,10 @@
+mode = input("Enter mode (static/dynamic): ")
+
+if mode == "static":
+    print("Traffic signal timing is fixed.")
+else:
+    vehicles = int(input("Number of vehicles: "))
+    if vehicles > 20:
+        print("Increase green signal time.")
+    else:
+        print("Normal signal timing.")
