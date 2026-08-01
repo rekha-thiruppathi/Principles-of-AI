@@ -1,0 +1,6 @@
+battery = int(input("Enter battery percentage: "))
+
+if battery < 20:
+    print("Action: Charge the Phone")
+else:
+    print("Action: Battery is Sufficient")
