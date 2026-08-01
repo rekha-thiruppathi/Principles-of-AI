@@ -1,0 +1,17 @@
+print("Episodic")
+
+marks = [85, 70, 90]
+
+for mark in marks:
+    if mark >= 50:
+        print(mark, "- Pass")
+    else:
+        print(mark, "- Fail")
+
+print("\nSequential")
+
+level = 1
+
+for i in range(3):
+    print("Current Level:", level)
+    level += 1
