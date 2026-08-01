@@ -1,0 +1,8 @@
+import random
+
+print("Deterministic")
+number = 4
+print("Square =", number * number)
+
+print("\nStochastic")
+print("Dice Roll =", random.randint(1, 6))
