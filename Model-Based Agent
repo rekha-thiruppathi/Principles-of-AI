@@ -1,0 +1,9 @@
+tank = input("Enter tank status (Empty/Full): ")
+
+if tank.lower() == "empty":
+    print("Motor ON")
+    tank = "Full"
+else:
+    print("Motor OFF")
+
+print("Current Tank Status:", tank)
