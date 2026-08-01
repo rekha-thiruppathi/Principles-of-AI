@@ -1,0 +1,13 @@
+patients = {
+    "Room 101": "Normal",
+    "Room 102": "Critical",
+    "Room 103": "Stable"
+}
+
+print("Fully Observable")
+for room, status in patients.items():
+    print(room, ":", status)
+
+print("\nPartially Observable")
+print("Room 101 :", patients["Room 101"])
+print("Other rooms: Data not available")
