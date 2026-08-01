@@ -1,0 +1,6 @@
+known_route = input("Is the route known? (yes/no): ")
+
+if known_route == "yes":
+    print("Following the saved route.")
+else:
+    print("Searching for a new route.")
